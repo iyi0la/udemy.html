@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle>Online Courses - Learn Anything, On Your Schedule | Udemy</tittle>
+
+<style>
+    body{ margin: 0;
+    padding: 0;
+    background-color:white;
+    }
+    nav {
+        width: 100%;
+        background: gainsboro;
+        overflow: auto;
+
+    }
+    .list {
+        padding: 0;
+        margin: 0 0 0 150px;
+        list-style: none;
+        margin-top: 15px;
+    }
+    .nav-list{
+        float: left;
+    }
+    
+    .logo img{
+        position: absolute;
+        margin-top: 15px;
+        margin-left:10px;
+    }
+    .dem{
+        margin-left: 40px;
+    }
+    nav a{
+        font-weight:small lighter;
+        width: 200x;
+        display: flow-root;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    .cta{
+        float: right;
+
+    }
+    .cta:clearfix{
+        clear: both;
+    }
+    .btn{
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100px;
+    }
+    #l{
+        border-color: rgb(4, 131, 170);
+        color: rgb(4, 131, 170);
+    }
+    #s{
+        border-color: rgb(4, 131, 170);
+        background-color: rgb(4, 131, 170);
+        color: white;
+    }
+    input:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+    #search{
+        width: 550px;
+        padding: 16px;
+        border-radius:25px;
+        border:1px solid;
+        border-color: rgb(65, 63, 63);
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 5px;
+        
+    }
+    #want{width: 250px;
+        padding: 15px;
+        border-radius:5px;
+        border: 1px solid;
+        border-color: rgb(65, 63, 63);
+        font-size: 15px;
+        text-align: left;
+        }
+    .container {
+  position: relative;
+  }
+  .text-block {width: 300px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 40px;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  color: black;
+  padding: 15px;
+  }  
+  .tab1,tr,td{
+      border: 1px solid;
+      border-collapse: collapse;
+      border: none;
+      text-align: left;
+      margin-left: 150px;
+  }
+  .tab2,tr,td{
+      border: 1px solid;
+      border-collapse: collapse;
+      border: none;
+      text-align: left;
+      margin-left: 150px;
+  }
+  .headl{
+        margin: 50px;
+  }
+  .head{color: #3c3b37;
+    font-size:24px;
+font-weight: 700;
+line-height: 28px;
+max-width: 100%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.subh{color: #73726c;
+    font-size:15px;
+font-weight:400;
+font-family: -apple-system, BlinkMacSystemFont, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.ul1{
+    margin-left: 35px;}
+.li1{
+    display: inline;
+    padding: 20px;
+}
+.pic{
+    margin-left: 50px;
+}
+.set{
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    }
+.head2{margin-top:50px;
+    margin-left: 50px;
+    color: #3c3b37;
+    font-size:24px;
+font-weight: 700;
+line-height: 28px;
+max-width: 100%x;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.pic1{margin-left: 50px;
+     margin-bottom: 20px;
+}
+.back{
+    background-color: rgb(110, 26, 82);
+    text-align:center;
+    color: white;
+    padding: 23px;
+}
+.backb{border: 1px solid white;
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.head3{margin-left: 60px;
+
+}
+.tab3,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tab3,tr,th,td{
+    border: none;
+    padding: 15px;
+}
+.tth{
+    color:rgb(4, 131, 170);
+}
+.ex{margin-left: 50px;
+    border: 1px solid;
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    background: rgb(4, 131, 170);
+    color: white;
+    border-radius: 5px;
+    }
+.imgback{
+    background-color: rgb(250, 248, 246);
+    color:black;
+    display: block;
+    width: 100%;
+
+    }
+.imgh{
+    border: 1px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow:hidden;
+    width: 350px;
+    text-align:left;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 800px;
+    border:none;
+    }
+  .start{text-align: center;
+    border: 1px solid;
+    padding: 15px;
+    width: 160px;
+    font-size: 15px;
+    background: rgb(4, 131, 170);
+    color: white;
+    border-radius: 5px;
+   }
+.imgl{
+    position: absolute;
+    margin-left: 350px;
+}
+.trust{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.svg{
+    padding: 15px;
+}
+.udeback{
+    background-color: rgb(3, 65, 73);
+    color: white;
+    display: block;
+    width: 100%;
+}
+.imghu{
+    border: 1px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow:auto;
+    width: 320px;
+    text-align:left;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 300px;
+    border: none;
+}
+.getu{
+    text-align: center;
+    border: 1px solid;
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    background: rgb(4, 131, 170);
+    color: white;
+    border-radius: 5px;
+}
+.imgb{
+    position: absolute;
+    margin-left: 800px;
+   
+}
+.udebus{
+    display: inline-table;
+}
+.tou{
+    color: rgb(4, 131, 170);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: small;
+}
+.tou li{
+    padding: 3px;
+  margin-bottom: 7px;
+}
+
+ </style>
+</head>
+<body>
+    <div>
+        <a class= "logo" href= "#"><img src="image/logo.svg" alt="logo" width="110" height="32">
+        </a>
+    </div>
+      <nav>
+            <ul class="list" > 
+        <li class="nav-list"><a href="#" target="">Categories</a></li>
+        <li class="nav-list"> <input type="text" name="" id="search" placeholder="Search for anything"> </li>
+        <li class="nav-list"><a href="#">Udemy for business</a></li>
+        <li class="nav-list"><a href="#">Teach on udemy</a></li>
+        <li class="nav-list"><a class="icon" href="#"><i class="fa fa-cart"></i></a></li>
+        
+        <li><a class="cta">
+            <li style="margin-left: 18px;"><button class="btn" id="l">Log in</button></li>
+            <li style="margin-right: 10px;"><button class="btn" id="s">Sign up</button></li>
+        </a></li>
+        </nav>
+        <div class="container">
+            <img class="dem" src="image/udem.jpg">
+        <div class="text-block">
+        <h1 style="color: rgb(60, 59, 50);
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 35px;
+        font-weight: 700;">Sale ends today</h1>
+        <p>Skills activatedfor as low as $9.99. Ends tonight.</p>
+        <p><input type="text" name="" id="want" placeholder="What do you want to learn?"></p>
+    </div>
+        </div>
+       <p> 
+           <table class="tab1" style="width: 100%;">
+               <tr><th>150,000 online courses</th><th>Expert instruction</th><th>Lifetime access</th></tr>
+        <tr><td>Enjoy a variety of fresh topics</td><td>Find the right instructor for you</td><td>Learn on your schedule</td></tr>
+           </table></p>
+           <br>
+           <hr style="color: grey;">
+        
+        <div class="headl"> 
+        <div class="head">The world's largest selection of courses</div>
+        <div class="subh">Choose from 150,000 online video courses with new additions published every month</div></div>
+       
+         <div>                
+               <ul class="ul1">       
+               <li class="li1">Business</li>
+                <li class="li1">Design</li>
+                <li class="li1">Photography</li>
+                <li class="li1">Development</li>
+                <li class="li1">Marketing</li>
+                <li class="li1">IT & Software</li>
+                <li class="li1">Personal Development</li>
+            </ul>
+        </div><br>
+        <hr style="color: rgb(65 63 63); margin: 0;"><br>
+        <div class="pic">
+            <div class="set">
+                  <img src="image/guy.jpg" alt="Snow" width="250px"><p>Leadership: Practical</p>
+                      <p>Leadership Skills</p>
+            </div>
+            <div class="set">
+                  <img src="image/wall.jpg" alt="Forest" width="250px"; ><p>An Entire MBA in 1</p>
+                <p>Course: Award winning...</p></div>
+                <div class="set">
+                  <img src="image/sql.jpg" alt="Mountains" width="250"><p>The Complete SQL Bootcamp</p>
+              <p>2020: Go from Zero to Hero</p></div>
+              <div class="set">
+                <img src="image/cou.jpg" alt="Mountains" width="250"><p>The Complete Financial Analyst</p>
+            <p>Course 2020</p></div>
+            <div class="set">
+            <img src="image/sem.jpg" alt="Mountains" width="250"><p>PMP Exam Prep Seminar</p>
+            <p>PMBOK Guide 6</p></div>
+        </div><br>
+        <hr style="color: rgb(65 63 63); margin: 0;">
+        <p> 
+            <table class="tab2" style="width: 100%;">
+                <tr><th>Go at your own pace</th><th>Learn from industry experts</th><th>Find video courses on almost any topic</th></tr>
+         <tr><td>Enjoy lifetime access to courses on Udemy’s website and app</td><td>Select from top instructors around the world</td><td>Build your library for your career and personal growth</td></tr>
+            </table></p>
+            <br>
+            <hr style="color: rgb(65, 63, 63);">
+            <div>
+            <div class="head2">Students are viewing</div>
+            <div class="pic1">
+                <div class="set">
+                      <img src="image/guy.jpg" alt="Snow" width="250px"><p>Leadership: Practical</p>
+                          <p>Leadership Skills</p>
+                </div>
+                <div class="set">
+                      <img src="image/wall.jpg" alt="Forest" width="250px"; ><p>An Entire MBA in 1</p>
+                    <p>Course: Award winning...</p></div>
+                    <div class="set">
+                      <img src="image/sql.jpg" alt="Mountains" width="250"><p>The Complete SQL Bootcamp</p>
+                  <p>2020: Go from Zero to Hero</p></div>
+                  <div class="set">
+                    <img src="image/cou.jpg" alt="Mountains" width="250"><p>The Complete Financial Analyst</p>
+                <p>Course 2020</p></div>
+                <div class="set">
+                <img src="image/sem.jpg" alt="Mountains" width="250"><p>PMP Exam Prep Seminar</p>
+                <p>PMBOK Guide 6</p></div>
+            </div>
+            <div class="back">
+                <h1 class="backh">Get personal learning recommendations</h1>
+                <p class="backp">Answer a few questions for your top picks</p>
+                <button class="backb"><b>Get started</b></button>
+            </div>
+            <h1 class="head3">Featured topics by category</h1>
+            <p> 
+                <table class="tab3" style="width: 100%;">
+                    <tr><th>Development</th><th>Business</th><th>IT and Software</th><th>Design</th></tr><br>   
+                    <tr><th class="tth">Python</th><th class="tth">Financial Analysis</th><th class="tth">AWS Certification</th><th class="tth">Photoshop</th></tr>
+             <tr><td>19,382,904 students</td><td>683,492 students</td><td>3,005,709 students</td><td>7,438,002 students</td></tr><br>
+             <tr><th class="tth">Web Development</th><th class="tth">SQL</th><th class="tth">Ethical Hacking</th><th class="tth">Graphic Design</th></tr>
+             <tr><td>6,891,049 students</td><td>2,979,325 students</td><td>6,552,743 students</td><td>2,063,582 students</td></tr><br>
+             <tr><th class="tth">Machine Learning</th><th class="tth">PMP</th><th class="tth">Cyber Security</th><th class="tth">Drawing</th></tr>
+             <tr><td>6,891,049 students</td><td>2,979,325 students</td><td>6,552,743 students</td><td>2,063,582 students</td></tr>
+                </table></p>
+            </div>  
+            <button class="ex">Explore more</button><br>
+
+            <br><div>
+            <img class="imgl" src="image/lady.jpg"></div>
+            <div class="imgback"> 
+           <div class="imgh"> 
+            <h1 class="hins">Become an instructor</h1>
+            <p class="top">Top instructors from around the world teach
+                 millions of students on Udemy. We provide the
+                tools and skills to teach what you love.</p>
+            <button class="start">Get teaching today</button>
+        </div>
+        </div><br>
+        <hr style="color: rgb(65, 63, 63);">
+        <div class="trust">
+        <h2 class="tru">Trusted by companies of all sizes</h2>
+        <img class="svg" src="image/booking.svg">
+        <img class="svg" src="image/volkswagen.svg">
+        <img class="svg" src="image/mercedes.svg" width="148" height="28">
+        <img class="svg" src="image/adidas.svg">
+        <img class="svg" src="image/eventbrite.svg">
+    </div><br>
+    <hr style="color: rgb(206, 202, 202);"><br>
+    <div>
+        <img class="imgb" src="image/boy.jpg"></div>
+    <div class="udeback">
+    <div class="imghu"> 
+    <h1 class="hude">Udemy for Business</h1>
+    <p class="get">Get unlimited access to 4,000+ of Udemy’s top courses for your team.</p>
+            <button class="getu">Get Udemy for Business</button></div>
+        </div><br>
+        <br><hr style="color: rgb(206, 202, 202);">
+    <div class="udemybus">
+        <div class="udebus">
+            <ul class="tou">
+                <li>Udemy for Business</li>
+                <li>Teach on Udemy</li>
+                <li>Get the app</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    <div class="udebus">
+            <ul class="tou">
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Help and Support</li>
+                <li>Affliiate</li>
+            </ul>
+        </div>
+    <div class="udebus">
+            <ul class="tou">
+                <li>Terms</li>
+                <li>Privacy policy and cookie policy</li>
+                <li>Sitemap</li>
+                <li>Featured courses</li>
+            </ul>
+        </div>
+    </div>
+
+    </body>
+</html>
